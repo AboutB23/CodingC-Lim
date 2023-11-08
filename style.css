@@ -1,0 +1,62 @@
+*{box-sizing: border-box;}
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.posizione-logo{
+    text-align: center;
+}
+.contenitore{
+    background-color: rgba(0, 0, 0, 0.548);
+    margin: auto;
+    border-radius: 20px;
+    width: 1500px;
+    height: 1000px;
+    padding: 30px;
+    margin-top: 100px;       
+}
+.contenitore2{
+    color: white;
+    padding: 70px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    line-height: 25px;
+}
+.logo{
+    width: 280px;
+}
+.titolo{
+    text-align: center;
+    color: rgb(30, 208, 30);
+    font-size: 40px;
+}
+.barranav{
+    background-color: rgb(30, 208, 30);
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.testo-scelta{
+    display: inline-block;
+    font-size: 28px;
+}
+.arrow::before{
+content: "\21A6";
+}
+.stato1,.stato2,.stato3{
+    border-radius: 5px;
+    height: 25px;
+}
+.stato1{
+    background-color: rgb(224, 176, 87);
+    width: 300px;
+}
+.stato2{
+    background-color: green;
+    width: 500px;    
+}
+.stato3{
+    background-color: red;
+    width: 100px;   
+}
